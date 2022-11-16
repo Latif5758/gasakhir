@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+:root {
+    --bg-1: rgb(240, 255, 66);
+    --bg-2: rgb(130, 205, 71);
+    --bg-3: rgb(84, 180, 53);
+    --bg-4: rgb(55, 146, 55);
+}
+.cont1{
+    background: var(--bg-2);
+    width: 100vw;
+    height: 90vh;   
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.cont2{
+        background: var(--bg-3);
+        width: 100vw;
+        height: 10vh;
+}
+
+.product{
+    background: var(--bg-3);
+    height: 30vh;
+}
